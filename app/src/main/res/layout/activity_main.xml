@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/photo"
+        android:layout_gravity="center">
+
+    </Button>
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="comparar">
+
+    </Button>
+    <ImageView android:id="@+id/imageView1"
+        android:layout_marginTop="40dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/str_nombre"
+        android:layout_marginTop="30dp"
+        android:hint="Nombre de foto"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Guardar">
+
+    </Button>
+
+</LinearLayout>

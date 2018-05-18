@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Rekognition</string>
+    <string name="photo">Foto</string>
+    <string name="str_comparar">Comparar</string>
+
+</resources>
